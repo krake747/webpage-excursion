@@ -1,0 +1,9 @@
+{
+    "name": "webpage-excursion",
+    "scripts": {
+        "scss": "sass scss/style.scss css/style.css -w --no-source-map"
+    },
+    "dependencies": {
+        "sass": "^1.57.1"
+    }
+}
