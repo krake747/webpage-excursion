@@ -1,0 +1,46 @@
+/* Normalize */
+
+:root {
+    font-size: 1em;
+    font-family: "Verdana", "sans-serif";
+}
+
+html {
+    line-height: 1.15;
+    /* 1 */
+    -webkit-text-size-adjust: 100%;
+    /* 2 */
+}
+
+body {
+    margin: 0;
+    padding: 1px;
+}
+
+main {
+    display: block;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+
+img {
+    border-style: none;
+}
+
+/* Custom Style */
+
+body {
+    background-color: black;
+}
+
+h1 {
+    &.title {
+        color: white;
+        font-size: 50px;
+        font-weight: 400;
+        text-align: center;
+    }
+}
